@@ -147,8 +147,8 @@ $btnExport  = New-Object System.Windows.Forms.Button; $btnExport.Text='Export to
 [void]$actionsTable.Controls.Add($actionsRight,2,0)
 
 # ---------- Load functions & handlers ----------
-. (Join-Path $PSScriptRoot 'Compare-Users-Functions.ps1')
-. (Join-Path $PSScriptRoot 'Compare-Users-Handlers.ps1')
+. (Join-Path $PSScriptRoot 'Compare-Membership-Functions.ps1')
+. (Join-Path $PSScriptRoot 'Compare-Membership-Handlers.ps1')
 
 # Show the form
 [void]$form.ShowDialog()
